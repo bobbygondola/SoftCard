@@ -3,16 +3,18 @@ import Navbar from './components/Navbar';
 import {
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+import Home from './data/Home'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Switch>
-        <Route path="/" />
+        <Route path="/" exact component={Home}/>
       </Switch>
+      <Footer />
     </div>
   );
 }
