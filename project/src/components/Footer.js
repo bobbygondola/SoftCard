@@ -80,7 +80,7 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to='/'
+              to={'//www.facebook.com/bobby.gondola.7/'}
               target='_blank'
               aria-label='Facebook'
             >
@@ -97,7 +97,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                '//www.youtube.com/channel/UC24t9RErPaODMWfdiZALArg?view_as=subscriber'
               }
               target='_blank'
               aria-label='Youtube'
@@ -114,7 +114,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to={'//www.linkedin.com/in/robert-gondola-6455781a3/'}
               target='_blank'
               aria-label='LinkedIn'
             >

@@ -3,16 +3,12 @@ import HeroSection from '../components/HeroSection'
 import Pricing from '../components/Pricing'
 import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from './Data'
 
-function Home() {
+function Products() {
     return (
         <>
-            <HeroSection {...homeObjOne} />
-            <HeroSection {...homeObjThree} />
             <HeroSection {...homeObjTwo} />
-            <Pricing />
-            <HeroSection {...homeObjFour} />
         </>
     )
 }
 
-export default Home
+export default Products
