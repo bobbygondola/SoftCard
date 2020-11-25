@@ -42,7 +42,7 @@ const Navbar = () => {
             <div className="navbar-container container">
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
                 <MdFingerprint />
-                Lavish
+                SoftCard
                 </Link>
                 <div className="menu-icon" onClick={onClick}>
                     {click ? <FaTimes /> : <FaBars />}
